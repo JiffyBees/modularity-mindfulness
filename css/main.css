@@ -1,0 +1,41 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.jap {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.Noto{
+  font-family: "Noto Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: none;
+  color: #000;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #005e76;
+  background-color: #ddd;
+  border-color: #000;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  color: #0084a6;
+  color: #000;
+}
+
+main a {
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: #8bc9d9;
+}
