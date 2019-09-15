@@ -6,36 +6,72 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.Noto{
+.noto {
   font-family: "Noto Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
+  border-style: none;
+  color: #005e76;
+}
+
+a:hover {
   color: #000;
 }
 
 .btn {
   background-color: transparent;
+  text-decoration: underline;
   border-style: none;
   color: #000;
-  text-decoration: none;
 }
 
 .btn:hover {
   color: #005e76;
-  background-color: #ddd;
-  border-color: #000;
+  background-color: #e2e2e2;
 }
 
 .btn-ghost {
   text-decoration: none;
-  color: #0084a6;
-  color: #000;
+  color: #005e76;
 }
 
-main a {
+.btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+.border {
   border: 2px solid;
-  border-radius: 3px;
+  border-radius: 4px;
   border-color: #8bc9d9;
+}
+
+.border:hover {
+  border-color: #005e76;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    max-width: 38em;
+  }
+
+  .text-l {
+    text-align: left;
+  }
+
+  .text-r {
+    text-align: right;
+  }
+
+  .pad-f {
+    padding-bottom: .5em;
+  }
+
 }
